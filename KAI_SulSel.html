@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourSun Labuan Bajo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F7F5FB;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #084887;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #F58A07;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #about {
+            padding: 20px;
+            text-align: center;
+        }
+        #packages {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        li {
+            width: 30%; /* Membuat item berukuran 30% dari lebar container */
+            margin: 10px;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto; 
+            max-width: 100%; 
+            max-height: 300px; 
+            margin: 0 auto 20px;
+            display: block;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #F58A07;
+        }
+        th {
+            background-color: #F9AB55;
+        }
+        .Fasilitas {
+        width: 30%;
+        margin: 10px auto;
+        }
+
+        .numbered-list {
+        counter-reset: list-item;
+        padding: 0;
+        
+        }
+
+        .numbered-list li {
+        counter-increment: list-item;
+        margin-bottom: 10px;
+        list-style-type: none;
+        }
+
+        .numbered-list li:before {
+        content: counter(list-item) ". ";
+        font-weight: bold;
+        margin-right: 5px;
+        }
+        .audio-player {
+            max-width: 300px;
+            margin: 50px auto;
+        }
+
+        audio {
+            width: 100%;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kereta Api Sulawesi Selatan</h1>
+    </header>
+    <nav>
+        <a href="#about"> About KAI SulSel</a>
+        <a href="#packages">Ticket Packages</a>
+        <a href="#cinematic">Cinematic View</a>
+        <a href="#contact">Contact Us</a>
+        
+    </nav>
+    <section id="about">
+        <h2>Kereta Api Sulawesi Selatan</h2>
+        <img src="KAI SulSel.jpeg" alt="Labuan Bajo" style="width: 100%; max-width: 300px; display: block; margin: 0 auto 50px;">
+            <p>Selamat datang di halaman resmi kami, di mana Anda dapat menemukan semua informasi mengenai perjalanan kereta api pertama di Indonesia Timur, yaitu Kereta Api Trans Sulawesi Selatan dengan rute Makassar - Parepare. Perjalanan ini tidak hanya menghubungkan dua kota besar di Sulawesi Selatan tetapi juga membuka babak baru dalam sejarah transportasi di wilayah ini.</p>
+            <p>Pembangunan Kereta Api Trans Sulawesi Selatan merupakan langkah monumental dalam upaya meningkatkan konektivitas dan memajukan infrastruktur transportasi di Indonesia Timur. Proyek ambisius ini dirancang untuk mempercepat mobilitas manusia dan barang, serta mendukung pertumbuhan ekonomi lokal. Jalur ini membentang dari Makassar, ibu kota provinsi Sulawesi Selatan yang dinamis, hingga Parepare, sebuah kota pelabuhan yang berkembang pesat.</p>
+    </section>
+    <section id="cinematic" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <div>
+            <h3 style="text-align: center;">Cinematic Tour</h3>
+            <div style="text-align: center;">
+                <iframe width="600" height="450" src="KAI SulSel.mp4" frameborder="50px" allowfullscreen style="max-width: 100%;"></iframe>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="packages">
+            <h2>Biaya Tiket KAI Trans Sulawesi Selatan</h2>
+            <table>
+                <tr>
+                    <th>Trans Trip</th>
+                    <th>Biaya Tiket</th>
+                </tr>
+                <tr>
+                    <td>Stasiun Maros - Stasiun Rammang-rammang</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Rammang-rammang - Stasiun Pangkajene</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Pangkajene - Stasiun Labakkang</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Maros - Stasiun Labakkang</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Labakkang - Stasiun Ma'rang</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Ma'rang - Stasiun Mandalle</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Mandalle - Stasiun Tanete Rilau</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Tanete Rilau - Stasiun Barru</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Labakkang - Stasiun Garongkong</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td>Stasiun Maros - Stasiun Barru - Stasiun Garongkong</td>
+                    <td>Rp 10.000</td>
+                </tr>
+            </table>
+        </div>    
+    </section>
+    <section>
+        <div class="audio-player">
+            <h2>Mars KAI</h2>
+            <table>
+                <tr>
+                    <th>Nama Lagu</th>
+                    <td>Mars KAI</td>
+                </tr>
+                <tr>
+                    <th>Audio</th>
+                    <td>
+                        <audio controls>
+                            <source src="KAI SulSel.mp4" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+        </div>  
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: cs@kai.id</p>
+        <p>Phone: +62 895 805350716</p>
+        <p>Address: 
+            Kompleks Depo Kereta Api Maros Jalan, Pallantikang, Kec. Maros Baru, Kabupaten Maros, Sulawesi Selatan 90516, Maros, Indonesia, South Sulawesi</p>
+    </section>
+    <footer>
+        &copy; 2024 KAI Trans Sulawesi Selatan
+    </footer>
+</body>
+</html>
